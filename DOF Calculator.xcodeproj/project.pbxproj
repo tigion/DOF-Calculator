@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5900E26D16DA4AAD0040EDF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5900E26C16DA4AAD0040EDF6 /* Cocoa.framework */; };
+		5900E27716DA4AAD0040EDF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5900E27516DA4AAD0040EDF6 /* InfoPlist.strings */; };
+		5900E27916DA4AAD0040EDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5900E27816DA4AAD0040EDF6 /* main.m */; };
+		5900E27D16DA4AAD0040EDF6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5900E27B16DA4AAD0040EDF6 /* Credits.rtf */; };
+		5900E28016DA4AAD0040EDF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5900E27F16DA4AAD0040EDF6 /* AppDelegate.m */; };
+		5900E28316DA4AAD0040EDF6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5900E28116DA4AAD0040EDF6 /* MainMenu.xib */; };
+		5900E28B16DA4B970040EDF6 /* DOF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5900E28A16DA4B970040EDF6 /* DOF.m */; };
+		59A0826716E730A200791574 /* CameraInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A0826616E730A200791574 /* CameraInfos.m */; };
+		59A0826A16E7310400791574 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A0826916E7310400791574 /* Camera.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5900E26916DA4AAD0040EDF6 /* DOF Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DOF Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5900E26C16DA4AAD0040EDF6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5900E26F16DA4AAD0040EDF6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5900E27016DA4AAD0040EDF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5900E27116DA4AAD0040EDF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5900E27416DA4AAD0040EDF6 /* DOF Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DOF Calculator-Info.plist"; sourceTree = "<group>"; };
+		5900E27616DA4AAD0040EDF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5900E27816DA4AAD0040EDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5900E27A16DA4AAD0040EDF6 /* DOF Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DOF Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		5900E27C16DA4AAD0040EDF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5900E27E16DA4AAD0040EDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5900E27F16DA4AAD0040EDF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5900E28216DA4AAD0040EDF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5900E28916DA4B970040EDF6 /* DOF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOF.h; sourceTree = "<group>"; };
+		5900E28A16DA4B970040EDF6 /* DOF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOF.m; sourceTree = "<group>"; };
+		59A0826516E730A100791574 /* CameraInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraInfos.h; sourceTree = "<group>"; };
+		59A0826616E730A200791574 /* CameraInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraInfos.m; sourceTree = "<group>"; };
+		59A0826816E7310400791574 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		59A0826916E7310400791574 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5900E26616DA4AAD0040EDF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900E26D16DA4AAD0040EDF6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5900E26016DA4AAD0040EDF6 = {
+			isa = PBXGroup;
+			children = (
+				5900E27216DA4AAD0040EDF6 /* DOF Calculator */,
+				5900E26B16DA4AAD0040EDF6 /* Frameworks */,
+				5900E26A16DA4AAD0040EDF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5900E26A16DA4AAD0040EDF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5900E26916DA4AAD0040EDF6 /* DOF Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5900E26B16DA4AAD0040EDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5900E26C16DA4AAD0040EDF6 /* Cocoa.framework */,
+				5900E26E16DA4AAD0040EDF6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5900E26E16DA4AAD0040EDF6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5900E26F16DA4AAD0040EDF6 /* AppKit.framework */,
+				5900E27016DA4AAD0040EDF6 /* CoreData.framework */,
+				5900E27116DA4AAD0040EDF6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5900E27216DA4AAD0040EDF6 /* DOF Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5900E27E16DA4AAD0040EDF6 /* AppDelegate.h */,
+				5900E27F16DA4AAD0040EDF6 /* AppDelegate.m */,
+				5900E28116DA4AAD0040EDF6 /* MainMenu.xib */,
+				5900E27316DA4AAD0040EDF6 /* Supporting Files */,
+				5900E28916DA4B970040EDF6 /* DOF.h */,
+				5900E28A16DA4B970040EDF6 /* DOF.m */,
+				59A0826516E730A100791574 /* CameraInfos.h */,
+				59A0826616E730A200791574 /* CameraInfos.m */,
+				59A0826816E7310400791574 /* Camera.h */,
+				59A0826916E7310400791574 /* Camera.m */,
+			);
+			path = "DOF Calculator";
+			sourceTree = "<group>";
+		};
+		5900E27316DA4AAD0040EDF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5900E27416DA4AAD0040EDF6 /* DOF Calculator-Info.plist */,
+				5900E27516DA4AAD0040EDF6 /* InfoPlist.strings */,
+				5900E27816DA4AAD0040EDF6 /* main.m */,
+				5900E27A16DA4AAD0040EDF6 /* DOF Calculator-Prefix.pch */,
+				5900E27B16DA4AAD0040EDF6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5900E26816DA4AAD0040EDF6 /* DOF Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5900E28616DA4AAD0040EDF6 /* Build configuration list for PBXNativeTarget "DOF Calculator" */;
+			buildPhases = (
+				5900E26516DA4AAD0040EDF6 /* Sources */,
+				5900E26616DA4AAD0040EDF6 /* Frameworks */,
+				5900E26716DA4AAD0040EDF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DOF Calculator";
+			productName = "DOF Calculator";
+			productReference = 5900E26916DA4AAD0040EDF6 /* DOF Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5900E26116DA4AAD0040EDF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christoph Zirkelbach";
+			};
+			buildConfigurationList = 5900E26416DA4AAD0040EDF6 /* Build configuration list for PBXProject "DOF Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5900E26016DA4AAD0040EDF6;
+			productRefGroup = 5900E26A16DA4AAD0040EDF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5900E26816DA4AAD0040EDF6 /* DOF Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5900E26716DA4AAD0040EDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900E27716DA4AAD0040EDF6 /* InfoPlist.strings in Resources */,
+				5900E27D16DA4AAD0040EDF6 /* Credits.rtf in Resources */,
+				5900E28316DA4AAD0040EDF6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5900E26516DA4AAD0040EDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900E27916DA4AAD0040EDF6 /* main.m in Sources */,
+				5900E28016DA4AAD0040EDF6 /* AppDelegate.m in Sources */,
+				5900E28B16DA4B970040EDF6 /* DOF.m in Sources */,
+				59A0826716E730A200791574 /* CameraInfos.m in Sources */,
+				59A0826A16E7310400791574 /* Camera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5900E27516DA4AAD0040EDF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5900E27616DA4AAD0040EDF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5900E27B16DA4AAD0040EDF6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5900E27C16DA4AAD0040EDF6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5900E28116DA4AAD0040EDF6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5900E28216DA4AAD0040EDF6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5900E28416DA4AAD0040EDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5900E28516DA4AAD0040EDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5900E28716DA4AAD0040EDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOF Calculator/DOF Calculator-Prefix.pch";
+				INFOPLIST_FILE = "DOF Calculator/DOF Calculator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5900E28816DA4AAD0040EDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOF Calculator/DOF Calculator-Prefix.pch";
+				INFOPLIST_FILE = "DOF Calculator/DOF Calculator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5900E26416DA4AAD0040EDF6 /* Build configuration list for PBXProject "DOF Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5900E28416DA4AAD0040EDF6 /* Debug */,
+				5900E28516DA4AAD0040EDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5900E28616DA4AAD0040EDF6 /* Build configuration list for PBXNativeTarget "DOF Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5900E28716DA4AAD0040EDF6 /* Debug */,
+				5900E28816DA4AAD0040EDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5900E26116DA4AAD0040EDF6 /* Project object */;
+}
