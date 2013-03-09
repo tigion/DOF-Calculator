@@ -100,7 +100,7 @@
 }
 
 - (IBAction)changeDistanceUnit:(id)sender {
-    [_dof setDistance:[self convertDistanceTo_mm:[sender doubleValue]]];
+    [_dof setDistance:[self convertDistanceTo_mm:[self.distanceTextField doubleValue]]];
     [self refreshResults];
 }
 
