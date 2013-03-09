@@ -111,6 +111,12 @@
         return value * 1000000.0; // km -> mm
     else if ([[self.distanceUnitButton titleOfSelectedItem] isEqual: @"m"])
         return value * 1000.0; // m -> mm
+    else if ([[self.distanceUnitButton titleOfSelectedItem] isEqual: @"yd"])
+        return value * 914.4; // yard -> mm
+    else if ([[self.distanceUnitButton titleOfSelectedItem] isEqual: @"ft"])
+        return value * 304.8; // feet -> mm
+    else if ([[self.distanceUnitButton titleOfSelectedItem] isEqual: @"in"])
+        return value * 25.4; // inch -> mm    
     else if ([[self.distanceUnitButton titleOfSelectedItem] isEqual: @"cm"])
         return value * 10.0; // cm -> mm
     else
