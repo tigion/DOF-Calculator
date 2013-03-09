@@ -5,6 +5,10 @@ Ein einfacher Schärfentiefenrechner (DOF) für OS X. Das Projekt ist als kleine
 
 *Das Testprojekt kann Spuren von Nüssen und fehlerhaften Code enthalten.*
 
+## Screenshot
+
+![Screenshot](screenshot_20130309.png)
+
 ## Systemvoraussetzung
 
 - mindestens OS X 10.7 und ein Intel Mac
